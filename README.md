@@ -80,7 +80,6 @@ Project ini dilengkapi file fabrikasi PCB RS-274X + Excellon drill file siap cet
 - **Silkscreen Bawah**: `JWS alGAFFAR - ESP32` & `DESIGNED BY Roesch`
 - **File Arsip Siap Order**:
   - `Gerber_JWS_alGaffar_ESP32_4X1.zip`
-  - `Gerber_JWS_alGAFFAR_ESP32.zip`
 
 ---
 

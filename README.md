@@ -24,7 +24,7 @@ Firmware Jam Waktu Sholat (JWS) otomatis berbasis **ESP32 WROOM-32** untuk menge
   - Otomatis memutar tarhim/sholawat (Folder 02) menjelang adzan.
   - Otomatis mematikan suara saat adzan atau sholat dimulai.
 - **Konektivitas Bluetooth Classic Internal (SPP)**:
-  - Menggunakan Bluetooth Classic bawaan ESP32 (Nama Bluetooth: **`JWS-BaabulGaffar`**).
+  - Menggunakan Bluetooth Classic bawaan ESP32 (Nama Bluetooth: **`JWS-alGaffar`**).
   - Tidak memerlukan modul tambahan seperti HC-05 atau HC-06.
   - **100% Kompatibel dengan Aplikasi Android alGaffar** untuk pengaturan teks, nama masjid, koreksi waktu, koordinat GPS, dan jadwal sholat.
 - **Penyimpanan Flash NVS (EEPROM)**:
@@ -79,6 +79,7 @@ Project ini dilengkapi file fabrikasi PCB RS-274X + Excellon drill file siap cet
 - **Silkscreen Atas**: `JWS alGAFFAR` & `ESP32 P10 HUB12 + MP3`
 - **Silkscreen Bawah**: `JWS alGAFFAR - ESP32` & `DESIGNED BY Roesch`
 - **File Arsip Siap Order**:
+  - `Gerber_JWS_alGaffar_ESP32_4X1.zip`
   - `Gerber_JWS_alGAFFAR_ESP32.zip`
 
 ---
@@ -86,6 +87,6 @@ Project ini dilengkapi file fabrikasi PCB RS-274X + Excellon drill file siap cet
 ## 📱 Penggunaan Aplikasi Android (alGaffar)
 
 1. Nyalakan perangkat JWS alGAFFAR.
-2. Buka menu Bluetooth di HP Android, cari perangkat bernama **`JWS-BaabulGaffar`**, lalu lakukan proses pairing (PIN standar: `1234` atau tanpa PIN).
+2. Buka menu Bluetooth di HP Android, cari perangkat bernama **`JWS-alGaffar`**, lalu lakukan proses pairing (PIN standar: `1234` atau tanpa PIN).
 3. Buka aplikasi **alGaffar**, pilih koneksi Bluetooth ke perangkat.
 4. Anda dapat langsung mengirim data waktu, koordinat lintang/bujur, nama masjid, durasi iqomah, serta pesan teks berjalan.

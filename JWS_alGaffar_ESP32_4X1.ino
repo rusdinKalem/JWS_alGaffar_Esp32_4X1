@@ -1,5 +1,5 @@
 /*************************************************************************************
- * JWS Baabul Gaffar 4x1 P10 LED Matrix (ESP32 Edition)
+ * JWS alGaffar 4x1 P10 LED Matrix (ESP32 Edition)
  * Firmware Jadwal Waktu Sholat Otomatis berbasis ESP32
  * Menggunakan library DMD3_ESP32 (Double-buffered, flicker-free VSPI driver),
  * RTC DS3231 via I2C (SDA: 21, SCL: 22), DFPlayer Mini via Hardware Serial2 (TX: 17, RX: 16),
@@ -266,11 +266,11 @@ void check_azzan() {
 void setup() {
   Serial.begin(115200);
   delay(100);
-  Serial.println("\n[BOOT] JWS Baabul Gaffar ESP32 Edition Starting...");
+  Serial.println("\n[BOOT] JWS alGaffar ESP32 Edition Starting...");
 
   // Inisialisasi Bluetooth Classic SPP untuk koneksi aplikasi Android alGaffar
-  SerialBT.begin("JWS-BaabulGaffar");
-  Serial.println("[BT] Bluetooth SPP Siap dengan nama: JWS-BaabulGaffar");
+  SerialBT.begin("JWS-alGaffar");
+  Serial.println("[BT] Bluetooth SPP Siap dengan nama: JWS-alGaffar");
 
   // Inisialisasi Hardware Serial2 untuk DFPlayer Mini
   SerialMP3.begin(9600, SERIAL_8N1, MP3_RX, MP3_TX);
